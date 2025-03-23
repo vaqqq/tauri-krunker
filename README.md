@@ -15,7 +15,7 @@ A minimal Krunker.io client built with Tauri. This client automatically blocks a
 This client is not suitable for unlimited FPS gameplay.
 
 - WebView2 does not support Chromium version 85.0.4183.121, which is required for stable unlimited FPS in Krunker.
-- Microsoft only provides WebView2 runtimes based on significantly newer Chromium versions (e.g., 133+, 134+).
+- Microsoft only provides WebView2 runtimes based on newer Chromium versions (e.g., 133+, 134+).
 - Attempting to downgrade Chromium manually causes the window to crash. The exact cause of the crash has not been investigated, but it is likely due to incompatibility with outdated Chromium builds.
 
 ## Technical Notes
